@@ -1,4 +1,4 @@
-<h2>USB Cihaz Sunucusu ve Soket Sunucusu</h2>
+<h2>USB Cihaz ve Soket Sunucusu </h2>
 
 <p>
     Bu proje, iki farklı sunucudan oluşmaktadır: <strong>USB Cihaz Sunucusu</strong> ve <strong>Soket Sunucusu</strong>. 
@@ -19,5 +19,5 @@
     Soket Sunucusu, belirli bir portta gelen istemci bağlantılarını dinleyen basit bir TCP sunucusudur. 
     JSON formatında veri göndermek ve almak için kullanılabilir, bu da yapılandırılmış veri alışverişi gerektiren uygulamalar için uygundur. 
     Sunucu, <code>systemd</code> ile yönetilir, bu sayede kolayca başlatılabilir, durdurulabilir ve izlenebilir. 
-    İstemciler bu sunucuya bağlanarak JSON verilerini gönderebilir ve yanıt alabilir, bu da dağıtık ortamda sistemler veya bileşenler arasında hafif iletişim için oldukça kullanışlıdır.
+    İstemciler bu sunucuya bağlanarak JSON verilerini gönderebilir ve yanıt alabilir.
 </p>
