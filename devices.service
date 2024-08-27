@@ -1,0 +1,13 @@
+[Unit]
+Description=Python TCP Server Service
+Requires=devices.socket
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /usr/lib/usb-devices/server.py
+StandardInput=socket
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+

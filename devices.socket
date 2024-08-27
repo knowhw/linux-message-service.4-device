@@ -1,0 +1,11 @@
+# /etc/systemd/system/devices.socket
+[Unit]
+Description=Socket for Python TCP Server
+
+[Socket]
+ListenStream=2443
+Accept=no
+
+[Install]
+WantedBy=sockets.target
+
